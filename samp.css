@@ -1,0 +1,16 @@
+div{
+    width: 210px;
+    height: 250px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    
+}
+#class{
+    border-width: 5px;
+    border-color: grey;
+    border-style: solid;
+}
+img{
+    border-radius: 50%;
+}

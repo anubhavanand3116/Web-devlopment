@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormDemo</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+<form action="/taco">
+    <p>
+    <label for="username">Enter your username:</label>
+<input type="text" placeholder="username" name="username">
+    </p>
+<label for="pass">Enter a password</label>
+<input type="password" placeholder="password" name="passweord">
+</p>
+<p>
+    <label for="color">Enter colour of your choice</label>
+<input type="color" placeholder="color" name="color">
+</p>
+<p>
+    <label for="num">Enter your mobile number</label>
+<input type="number" placeholder="number" name="number">
+</p>
+<p>
+    <label for="week">Enter week</label>
+    <input type="week" name="week" placeholder="Week">
+</p>
+<p>
+    <label for="reset"></label>
+    <input type="reset" name="clear" placeholder="Week">
+</p>
+<button>Submit</button>
+
+</form>
+<h2>Search</h2>
+
+<form action="https://www.reddit.com/search/">
+<input type="username" name="q" placeholder="reddit">
+<button>Search reddit</button>
+</form>
+
+<form action="https://www.google.com/search">
+<input type="text" name="q" placeholder="Google">
+<button>Search google</button>
+</form>
+
+<form action="https://www.youtube.com/results">
+<input type="text" placeholder="Youtube" name="search_query">
+<button>Search Youtube</button>
+
+</form>
+<h2>More inputs</h2>
+<form action="">
+    <input type="checkbox" name="agree_tos" id="agree">
+    <label for="agree">I agree for all above</label>
+    <p>
+        <table>
+            <tr>Enter shirt size</tr>
+            <input type="radio"name="opt" id="s" value="S">
+            <tr>S</tr>
+            <input type="radio"name="opt" id="m" value="M">
+            <tr>M</tr>
+            <input type="radio"name="opt" id="l" value="L">
+            <tr>L</tr>
+        </table>
+
+    </p>
+  <label for="pet_select">Choose a pet</label>
+  <select name="pets" id=""pet_select>
+<option value="">Please choose an option</option>
+<option value="Dog">Dog</option>
+<option value="cat">Cat</option>
+<option value="rabbit">Rabbit</option>
+<option value="parrot">parrot</option>
+<p>
+<label for="cheese">Amount of cheese</label>
+<input type="range"  name="cheese level" id="cheese" min="1" max="10">
+</p>
+<p>
+    <label for="requst">review</label>
+    <br>
+<textarea name="review" id="reviw" cols="30" rows="10">How was your day</textarea>
+
+</p>
+
+  </select>
+    <button>Submit</button>
+
+
+</form>
+
+
+<h3>Dummy</h3>
+<form action="">
+<label for="name">Enter first name</label>
+<input type="text" name="fist" id="fist" required>
+<p>
+<label for="username">Username</label>
+<input type="text" name="user" id="user" minlength="5" maxlength="10" required>
+
+</p>
+<p>
+    <input type="email" required>
+</p>
+
+</form>
+
+
+
+
+</body>
+</html>
